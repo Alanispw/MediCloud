@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>MediCloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="MediCloud Website" />
+	<link rel="icon" type="image/png" href="images/logo.png" />
+
+	<script src="https://kit.fontawesome.com/89dd2a5939.js" crossorigin="anonymous"></script>
+    <!-- Custom Theme files -->
+    <link href="/vendor/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="all">
+	
+    <!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet"><!-- //online-fonts -->
+</head>
+<body>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+                <h1>
+                    <a class="navbar-brand text-white" href="/Admin/indexAdmin.html">
+						<!-- <img src="images/Medi-logo.png" width="30" height="30"  alt=""> -->
+					   MediCloud
+					</a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav ml-lg-auto text-center">
+                        <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="/Admin/indexAdmin.html">Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item active mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="/Admin/addDoctor.html">Añadir doctor 
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                                <a class="nav-link" href="/Admin/viewDoctor.html">Doctores</a>
+                            </li>
+                        <li>  
+                        <li>
+                            <button type="button" class="btn active ml-lg-2 w3ls-btn text-info" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
+								<a class="nav-link" href="/Doctor/loginDoctor.html">Cerrar Sesión</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main image slider container -->
+    <!-- end of main image slider container -->
+		<!--about-->
+	<div class="about">
+	<div class="abt-layer">
+		<div class="container ">
+			<div class="about-main">
+				<div class="about-right">
+					<h3 class="subheading-w3-agile">Añadir doctor</h3>
+					<!-- stats -->
+					<div class="stats">
+						<div class="stats_inner">
+							<form action="#" method="post">
+								 <input class="form-control mb-3" type="text" placeholder="Nombre" name="Nombre" required="">
+								 <input class="form-control mb-3" type="text" placeholder="Cédula" name="Cédula" required="">
+								 <input class="form-control mb-3" type="date" placeholder="Fecha de nacimiento" name="Fecha de nacimiento" required="">
+								 <input class="form-control mb-3" type="text" placeholder="Telefono" name="Telefono" required="">
+                                <input class="form-control mb-3" type="email" placeholder="Correo electrónico" name="Correo electrónico" required="">
+                                <select class="form-control mb-3">
+									<option value="2">Pediatra</option>
+									<option value="3">Ginecólogo</option>
+									<option value="4">Cardiólogo</option>
+									<option value="5">Oftalmólogo</option>
+									<option value="6">Neurólogo</option>
+									<option value="7">Dermatólogo</option>
+                                 </select>
+                                 <!-- <input class="form-control mb-3" type="text" placeholder="Licencia de " name="Telefono" required=""> -->
+                                 <input class="form-control mb-3" type="text" placeholder="Usuario" name="Usuario" required="">
+                                 <input class="form-control mb-3" type="password" placeholder="Contraseña" name="Contraseña" required="">
+							
+								<button type="submit" class="btn btn-agile btn-block ">
+								<a  class="text-white" href="/confirm.html">Guardar doctor</a> </button>
+							</form>
+						</div>
+					</div>
+					<!-- //stats -->
+
+				</div>
+			</div>
+			
+		</div>
+		</div>
+	</div>
+			
+<!-- footer -->
+	<footer class="page-footer font-small">
+		<div class="footer-copyright text-center py-3 text-white">© 2020 Copyright | MediCloud
+		  </div>
+	</footer>
+	<!-- //footer -->
+
+    <script src="js/SmoothScroll.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

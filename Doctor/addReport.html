@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>MediCloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="MediCloud Website" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+	
+	<script src="https://kit.fontawesome.com/89dd2a5939.js" crossorigin="anonymous"></script>
+    <!-- Custom Theme files -->
+    <link href="/vendor/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="all">
+	
+    <!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet"><!-- //online-fonts -->
+</head>
+<body>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+                <h1>
+                    <a class="navbar-brand text-white" href="/Doctor/indexDoctor.html">
+						<!-- <img src="images/Medi-logo.png" width="30" height="30"  alt=""> -->
+					   MediCloud
+					</a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto text-center">
+                        <li class="nav-item mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="/Doctor/indexDoctor.html">Inicio
+                            </a>
+                        <li>
+                            <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                                    <a class="nav-link" href="/Doctor/viewAppoint.html">Citas</a>
+                            </li>
+                        <li>
+                        </li>
+                            <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                                <a class="nav-link" href="/Doctor/viewPatient.html">Pacientes</a>
+                            </li>
+                        <li>
+                            <li class="nav-item dropdown mr-3 mt-lg-0 mt-3">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Reportes
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item text-info" href="/Doctor/addReport.html">Añadir Reporte</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-info" href="/Doctor/viewReports.html">Ver Reportes</a>
+                                </div>
+                            </li> 
+                        <li>
+                            <button type="button" class="btn active ml-lg-2 w3ls-btn text-info" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
+								<a class="nav-link" href="/Doctor/loginDoctor.html">Cerrar Sesión</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main image slider container -->
+    <!-- end of main image slider container -->
+		<!--about-->
+	<div  style=" height: 94.5vh;" class="about">
+	<div style=" height: 94.5vh;" class="abt-layer">
+		<div class="container ">
+			<div class="about-main">
+				<div class="about-right">
+					<h3 class="subheading-w3-agile">Añadir Reporte</h3>
+					<!-- stats -->
+					<div class="stats">
+						<div class="stats_inner">
+							<form action="#" method="post">
+                                <input class="form-control mb-3" type="text" placeholder="Diagnostico" name="Diagnostico" required="">
+                                <div style="margin: -20px 0 0 0" class="form-group mb-3"> 
+                                    <label  for="exampleFormControlTextarea1"></label>
+                                    <textarea class="form-control " rows="3" placeholder="Observación" ></textarea>
+                                  </div>	
+								 <input class="form-control mb-3" type="text" placeholder="Medicamento" name="Medicamento" required="">
+								 <input class="form-control mb-3" type="text" placeholder="Estudio" name="Estudio" required="">
+                                 <!-- <input class="form-control mb-3" type="text" placeholder="Observación" name="Observación" required=""> -->
+    
+								<button type="submit" class="btn btn-agile btn-block ">
+								<a  class="text-white" href="/confirm.html">Confirmar reporte</a> </button>
+							</form>
+						</div>
+					</div>
+					<!-- //stats -->
+
+				</div>
+			</div>
+			
+		</div>
+		</div>
+	</div>
+			
+<!-- footer -->
+	<footer class="page-footer font-small">
+		<div class="footer-copyright text-center py-3 text-white">© 2020 Copyright | MediCloud
+		  </div>
+	</footer>
+    <!-- //footer -->
+    <script src="/js/jquery-2.2.3.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>

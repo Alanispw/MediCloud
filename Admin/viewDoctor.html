@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>MediCloud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="MediCloud Website" />
+	<link rel="icon" type="image/png" href="images/logo.png" />
+
+	<script src="https://kit.fontawesome.com/89dd2a5939.js" crossorigin="anonymous"></script>
+    <!-- Custom Theme files -->
+    <link href="/vendor/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="all">
+	
+    <!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet"><!-- //online-fonts -->
+</head>
+<body>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+                <h1>
+                    <a class="navbar-brand text-white" href="/Admin/indexAdmin.html">
+						<!-- <img src="images/Medi-logo.png" width="30" height="30"  alt=""> -->
+					   MediCloud
+					</a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto text-center">
+                        <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="/Admin/indexAdmin.html">Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="/Admin/addDoctor.html">Añadir doctor 
+                                </a>
+                        </li>
+                        <li>
+                            <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                                <a class="nav-link active" href="/Admin/viewDoctor.html">Doctores
+                                    <span class="sr-only">(current)</span></a>
+                            </li>
+                        <li>  
+                        <li>
+                            <button type="button" class="btn active ml-lg-2 w3ls-btn text-info" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
+								<a class="nav-link" href="/Doctor/loginDoctor.html">Cerrar Sesión</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="about">
+            <div class="abt-layer">
+                <div class="container ">
+                    <div style="margin: 10px 10px 10px -50px"  class="col-md-12">
+                         <h1>Lista de doctores</h1>
+                         <div style=" height: 60vh; font-size: larger;" class="table-responsive">
+                            <table style="width: 70vw; margin: 50px 10px;" class="table table-condensed">
+                                <thead >
+                                    <tr><th>Nombre</th>
+                                    <th>Cédula</th>
+                                    <th>Correo electrónico</th>
+                                    <th>Fecha de nacimiento</th>
+                                    <th>Telefono</th>
+                                    <th>Especialidad</th>
+                                    <!-- <th>Usuario</th>
+                                    <th>Contraseña</th> -->
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr id="-M3mqECmpWs0kgP-F2Mx">
+                                        <td class="paciente">Paciente</td>
+                                        <td class="tipo de cita">Consulta general</td>
+                                        <td class="estado">Completa</td>
+                                        <td class="fecha de la cita">14/12/1999</td>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <td class="eliminar">
+                                            <button type="button" class="btn btn-danger btn-xs" name="btn_eliminar">X</button>
+                                        </td>
+                                        <td class="editar">
+                                            <button type="button" class="btn btn-warning btn-xs" name="btn_editar" data-toggle="modal" data-target="#myModal">
+                                                <a style="color: white;" href="#">Editar</a>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr id="-M3mqOFHQQMfUnr6o7Ep">
+                                        <td class="nombre">Prueba</td>
+                                        <td class="apellido">1</td>
+                                        <td class="email">prueba@gmail.com</td>
+                                        <td class="cedula">12345678901</td>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <td class="eliminar">
+                                            <button type="button" class="btn btn-danger btn-xs" name="btn_eliminar">X</button>
+                                        </td>
+                                        <td class="editar">
+                                            <button type="button" class="btn btn-warning btn-xs" name="btn_editar" data-toggle="modal" data-target="#myModal">
+                                                <a style="color: white;" href="#">Editar</a>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr id="-M3mqOcXF1MDLvyp0ITk">
+                                        <td class="nombre">Prueba</td>
+                                        <td class="apellido">1</td>
+                                        <td class="email">prueba@gmail.com</td>
+                                        <td class="cedula">12345678901</td>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <td class="eliminar">
+                                            <button type="button" class="btn btn-danger btn-xs" name="btn_eliminar">X</button>
+                                        </td>
+                                        <td class="editar">
+                                            <button type="button" class="btn btn-warning btn-xs" name="btn_editar" data-toggle="modal" data-target="#myModal">
+                                                <a style="color: white;" href="#">Editar</a></button></td></tr></tbody>
+                    
+                            </table>
+                        </div>
+                                <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div style="margin-top: 7em;"  class="modal-content">
+                    <div  class="modal-header">
+    
+                        <!-- <button type="button" class="close" data-dismiss="modal">×</button> -->
+                        <h4 class="modal-title">Editar Doctor</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group col-md-12">
+                                    <label for="lbl_diagnostico">Nombre</label>
+                                    <input type="text" class="form-control" id="lbl_diagnostico" name="txt_registro" placeholder="Tiene esta condición..." required="">
+                                </div>
+    
+                                <div class="form-group col-md-12"> 
+                                    <label for="lbl_observacion">Cédula</label>
+                                    <textarea class="form-control " rows="3" placeholder="Observación" ></textarea>
+                                  </div>
+                                <div class="form-group col-md-12">
+                                    <label for="lbl_medicamento">Correo electrónico</label>
+                                    <input type="text" class="form-control" id="lbl_medicamento" name="txt_registro" placeholder="Se le recomienda tomar tal cosa..." required="">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="lbl_estudios">Telefono</label>
+                                    <input type="text" pattern="[0-9]+" class="form-control" id="lbl_cedula" name="txt_registro" placeholder="Estudios para..." required="">
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label for="lbl_estudios">Especialidad</label>
+                                    <input type="text" pattern="[0-9]+" class="form-control" id="lbl_cedula" name="txt_registro" placeholder="Estudios para..." required="">
+                                </div>
+                                
+                                <div className="row float-right ">
+                                    <div class="btn-group btn-group-md mt-2 float-right">
+                                        <button type="button" class="btn btn-block btn-success mr-3" id="btn_guardar">
+                                            <a style="font-size: 1em;" class="text-white" href="/Admin/viewDoctor.html">Guardar</a></button>
+                                    </div>
+    
+                                    <div class="btn-group btn-group-md mt-2 float-right">
+                                        <button type="button" class="btn btn-block btn-danger mr-3" id="btn_guardar">
+                                            <a style="font-size: 1em;" class="text-white" href="/Admin/viewDoctor.html">Cancelar</a></button>
+                                    </div>
+                              </div>
+                            </form>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    
+    </div>
+                     </div>
+                </div>
+            </div>    
+        </div>
+        
+<!-- footer -->
+	<footer class="page-footer font-small">
+		<div class="footer-copyright text-center py-3 text-white">© 2020 Copyright | MediCloud
+		  </div>
+	</footer>
+	<!-- //footer -->
+    <script src="/js/jquery-2.2.3.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
